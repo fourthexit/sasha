@@ -1,1 +1,1 @@
-This is a github repository for my OBDM and python code.
+This is a github repository for the core of my SPKP wordpress website.
