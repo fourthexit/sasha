@@ -1,0 +1,84 @@
+#leaflet_map { height: 545px; }
+#dvm_map{ height: 785px; }
+.footer{ position: static; }
+#page-wrapper{ min-height: 500px; }
+.top-navigation .wrapper.wrapper-content{
+    padding: 10px;
+}
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.leaflet-popup-content .ibox-content{
+    padding: 0px;
+}
+
+.parties_list, .counties_list{
+    height: 300px;
+    overflow: auto;
+}
+
+.counties_list{
+    height: 625px;
+    width: 450px;
+}
+
+.bottom_left, .main_left{ padding-left: 5px; padding-right: 5px; }
+.bottom_left{ margin-left: -15px; }
+
+.spiner-example {
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    z-index: 999;
+}
+
+.leaflet-zoom-animated{
+    z-index: 999;
+    /*
+    left: 20px;
+    top: 0px;
+    position: absolute;
+    display: block;
+    transform: None;
+    */
+}
+
+.counties_list{
+    width: 400px;
+    height: 570px;
+}
+
+.dropdown-menu a{ padding: 10px 15px 10px 20px; }
+
+#page-wrapper { margin: 0px; }
+
+.section_header{ border: none; padding: 0px; padding-top: 8px; }
+
+.ibox-title{ border-width: none; }
+
+.section_header .ibox-title{ min-height: 30px; }
+
+.bottom_pane .ibox-title, .main_left .ibox-title{ color: #3cba9f; }
+.bottom_pane .pull-right, .main_left .ibox-title .pull-right{ color: #929292; font-size: 75%; }
+
+.col-lg-4.main_left .ibox{ margin-bottom: 5px; }
+
+#main-content{ margin: 0px; padding: 0px !important; }
+.toggle-header{ padding: 10px 10px 0px 0px; }
+#section-title{ color: #676a6c; font-weight: 120%; }
+.progress .indirect_ben { color: #8644a2; }
+#progress_tracker{ background-color: #f68b25; }
+#varieties_released{  }
+#dvm_distribution{ background-color: #d6ac28; }
+text { font: 10px sans-serif; }
+#varieties_map { height: 670px; min-width: 310px; max-width: 800px; margin: 0 auto; }
+.loading { margin-top: 10em; text-align: center; color: gray; }
+#projects_bar{ min-width: 310px; height: 497px; margin: 0 auto; }
+.ibox-content.ben_reach{ padding: 1px 20px; }
+.ibox-title.ben_reach_title{ border-width: 1px 0 0; }
+#dvm_by_country { min-width: 180px; max-width: 400px; margin: 0 auto; }
+#bubble_charts{ padding-left: 0px; height: 708px;}
+#beneficiaries_types{ height: 850px; }
+#leaflet_map .highcharts-series-group g path, #varieties_map .highcharts-series-group g path { stroke: #858079; }
